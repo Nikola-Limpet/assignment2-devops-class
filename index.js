@@ -5,6 +5,9 @@ app.get("/search", (req, res) => {
   res.send("INSIDE SEARCH API..");
 });
 
+
+
+
 app.get("/view", (req, res) => {
   res.send("INSIDE VIEW API..");
 });
